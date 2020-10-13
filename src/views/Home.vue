@@ -170,7 +170,7 @@ export default {
                 image: socratus,
                 title: "Socratus",
                 role: "Frond-end Developer, Database architecture",
-                link: "socratus.pl",
+                link: "https://socratus.pl",
                 description: "Socratus - software platform for school management. It is a team project, which I did with my friends. STACK: VueJS, Vuetify, PostgreSQL, NodeJS, Flutter",
             }, ],
         };
