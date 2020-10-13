@@ -18,14 +18,14 @@
                 </div>
             </div>
             <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
-                <img class="border-8 border-white rounded-full shadow-2xl" alt="hero" src="../assets/shams.jpg" />
+                <img class="border-8 border-white rounded-full shadow-2xl" alt="hero" src="https://portfolio-shams.s3.us-east-2.amazonaws.com/shams.jpg" />
             </div>
         </div>
     </section>
     <section class="text-gray-700 body-font min-h-screen flex items-center">
         <div class="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
             <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0">
-                <img class="object-cover object-center rounded" alt="hero" src="../assets/model.png" />
+                <img class="object-cover object-center rounded" alt="hero" src="https://portfolio-shams.s3.us-east-2.amazonaws.com/model.png" />
             </div>
             <div class="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center">
                 <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">
@@ -96,7 +96,7 @@
                 <h2 class="text-gray-900 text-lg mb-1 font-medium title-font">
                     Contact me
                 </h2>
-               
+
                 <input v-model="message.name" class="bg-white rounded border border-gray-400 focus:outline-none focus:border-indigo-500 text-base px-4 py-2 mb-4" placeholder="Name" type="text" />
 
                 <input v-model="message.subject" class="bg-white rounded border border-gray-400 focus:outline-none focus:border-indigo-500 text-base px-4 py-2 mb-4" placeholder="Subject" type="text" />
@@ -105,7 +105,6 @@
                 <button @click="sendEmail" class="text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">
                     Send message
                 </button>
-               
             </div>
         </div>
     </section>
