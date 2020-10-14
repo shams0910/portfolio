@@ -9,9 +9,9 @@
                 </h1>
                 <p class="mb-8 leading-relaxed">Software Engineer</p>
                 <div class="flex justify-center flex-col">
-                    <button class="inline-flex text-gray-700 bg-gray-200 border-0 py-2 px-6 focus:outline-none hover:bg-gray-300 rounded text-lg">
+                    <a href="https://portfolio-shams.s3.us-east-2.amazonaws.com/shams_cv.pdf" target="_blank" class="inline-flex text-gray-700 bg-gray-200 border-0 py-2 px-6 focus:outline-none hover:bg-gray-300 rounded text-lg">
                         Download Resume
-                    </button>
+                    </a>
                     <button @click="githublink" class="text-white bg-gray-900 border-0 p-2 mt-2 focus:outline-none hover:bg-gray-800 rounded text-lg">
                         <span class="fa fa-github"></span> Github
                     </button>
@@ -169,8 +169,8 @@ export default {
             projects: [{
                 image: socratus,
                 title: "Socratus",
-                role: "Frond-end Developer, Database architecture",
-                link: "https://socratus.pl",
+                role: "Front-end Developer, Database architecture",
+                link: "https://www.facebook.com/socratus.platform",
                 description: "Socratus - software platform for school management. It is a team project, which I did with my friends. STACK: VueJS, Vuetify, PostgreSQL, NodeJS, Flutter",
             }, ],
         };
