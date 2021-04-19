@@ -14,7 +14,7 @@
           <p class="mb-8 leading-relaxed">Software Engineer</p>
           <div class="flex justify-center flex-col">
             <a
-              href="https://portfolio-shams.s3.us-east-2.amazonaws.com/shams_cv.pdf"
+              href="https://drive.google.com/file/d/16Dd08Jw4-hwsBNsH12ueNjcK_zgrwOTZ/view?usp=sharing"
               target="_blank"
               class="inline-flex text-gray-700 bg-gray-200 border-0 py-2 px-6 focus:outline-none hover:bg-gray-300 rounded text-lg"
             >
