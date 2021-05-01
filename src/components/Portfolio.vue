@@ -8,7 +8,7 @@
       </div>
       <div class="flex flex-wrap -m-4">
         <div
-          class="p-4 lg:w-1/2"
+          class="p-4 mt-2 lg:w-1/2"
           v-for="project in projects"
           :key="project.title"
         >
@@ -46,6 +46,7 @@
 <script>
 import socratus from "../assets/socratus.jpg";
 import agro from "@/assets/agro_logo.png";
+import moviestore from "@/assets/walter_white.png";
 export default {
   data() {
     return {
@@ -65,6 +66,14 @@ export default {
           link: "https://www.facebook.com/socratus.platform",
           description:
             "Socratus - CMS software platform for elementary/high school management. ",
+        },
+        {
+          image: moviestore,
+          title: "MovieStore",
+          role: "Backend Development",
+          link: "https://documenter.getpostman.com/view/14428637/TzRLkqB8",
+          description:
+            "MovieStore is an open source movie api, containing information about over 1 million movies, tv series and shows. The database was built from the famous IMDB dataset ",
         },
       ],
     };
